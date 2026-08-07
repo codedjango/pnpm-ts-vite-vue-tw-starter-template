@@ -1,14 +1,13 @@
 <script setup>
+import Footer from '@/components/Footer.vue'
 import LeftSidebar from '@/components/LeftSidebar.vue'
+import Navbar from '@/components/Navbar.vue'
 import RightSidebar from '@/components/RightSidebar.vue'
 </script>
 
 <template>
 	<div class="mx-auto flex min-h-svh max-w-[calc(100svw-16rem)] flex-col">
-		<header class="flex items-center justify-end gap-2 bg-red-400">
-			<router-link :to="{ name: 'home' }">Home</router-link>
-			<router-link :to="{ name: 'about' }">About</router-link>
-		</header>
+		<Navbar />
 		<main class="flex flex-1 flex-col md:flex-row">
 			<LeftSidebar />
 			<div class="order-2 flex flex-1 flex-col md:order-0 md:flex-row">
@@ -19,7 +18,7 @@ import RightSidebar from '@/components/RightSidebar.vue'
 			</div>
 			<RightSidebar />
 		</main>
-		<footer class="bg-green-400">Social links</footer>
+		<Footer />
 	</div>
 </template>
 
