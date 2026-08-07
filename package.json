@@ -13,7 +13,9 @@
 		"format": "pnpm typecheck && pnpm lint && pnpm fmt"
 	},
 	"dependencies": {
-		"vue": "^3.5.41"
+		"pinia": "^4.0.2",
+		"vue": "^3.5.41",
+		"vue-router": "^5.2.0"
 	},
 	"devDependencies": {
 		"@tailwindcss/vite": "^4.3.3",
