@@ -4,7 +4,7 @@ import RightSidebar from '@/components/RightSidebar.vue'
 </script>
 
 <template>
-	<div class="mx-auto flex min-h-screen max-w-[calc(100svw-16rem)] flex-col">
+	<div class="mx-auto flex min-h-svh max-w-[calc(100svw-16rem)] flex-col">
 		<header class="flex items-center justify-end gap-2 bg-red-400">
 			<router-link :to="{ name: 'home' }">Home</router-link>
 			<router-link :to="{ name: 'about' }">About</router-link>
