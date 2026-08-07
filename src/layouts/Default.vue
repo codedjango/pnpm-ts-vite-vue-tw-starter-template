@@ -11,7 +11,7 @@ import RightSidebar from '@/components/RightSidebar.vue'
 		</header>
 		<main class="flex flex-1 flex-col md:flex-row">
 			<LeftSidebar />
-			<div class="flex flex-1 flex-col max-md:order-2 md:flex-row">
+			<div class="order-2 flex flex-1 flex-col md:order-0 md:flex-row">
 				<div class="flex-1 bg-slate-400">
 					<h1>Page Content</h1>
 					<router-view />
