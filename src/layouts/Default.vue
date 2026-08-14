@@ -6,7 +6,7 @@ import RightSidebar from '@/components/RightSidebar.vue'
 </script>
 
 <template>
-	<div class="mx-auto flex min-h-svh max-w-[calc(100svw-16rem)] flex-col">
+	<div class="mx-auto flex min-h-svh max-w-[calc(100%-16rem)] flex-col">
 		<Navbar />
 		<main class="flex flex-1 flex-col md:flex-row">
 			<LeftSidebar />
