@@ -14,6 +14,9 @@ importers:
       pinia:
         specifier: ^4.0.3
         version: 4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.41(typescript@6.0.3))
+      tailwindcss:
+        specifier: ^4.3.3
+        version: 4.3.3
       vue:
         specifier: ^3.5.41
         version: 3.5.41(typescript@6.0.3)
@@ -42,9 +45,6 @@ importers:
       oxlint:
         specifier: ^1.79.0
         version: 1.79.0
-      tailwindcss:
-        specifier: ^4.3.3
-        version: 4.3.3
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
