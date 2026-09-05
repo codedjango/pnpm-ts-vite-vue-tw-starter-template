@@ -46,5 +46,6 @@ minimumReleaseAgeExclude:
     oxlint@1.79.0 || 1.80.0 || 1.81.0,
     '@types/node@26.3.0 || 26.4.0 || 26.4.1',
     vue-router@5.3.1,
+    '@types/web@0.0.355',
   ]
 minimumReleaseAgeStrict: false
