@@ -13,7 +13,7 @@
 		"format": "pnpm typecheck && pnpm lint && pnpm fmt"
 	},
 	"dependencies": {
-		"@vueuse/core": "^14.4.0",
+		"@vueuse/core": "^15.0.0",
 		"pinia": "^4.0.3",
 		"tailwindcss": "^4.3.3",
 		"vue": "^3.5.42",
