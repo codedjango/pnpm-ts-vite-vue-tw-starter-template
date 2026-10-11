@@ -1,8 +1,8 @@
 minimumReleaseAgeExclude:
   - vite@8.2.1 || 8.2.2 || 8.3.0 || 8.3.1
   - pinia@4.0.3
-  - '@vue/language-core@3.3.10'
-  - vue-tsc@3.3.10
+  - '@vue/language-core@3.3.10 || 3.3.13'
+  - vue-tsc@3.3.10 || 3.3.13
   - '@oxfmt/binding-android-arm-eabi@0.64.0 || 0.65.0 || 0.66.0 || 0.67.0 || 0.68.0 || 0.70.0'
   - '@oxfmt/binding-android-arm64@0.64.0 || 0.65.0 || 0.66.0 || 0.67.0 || 0.68.0 || 0.70.0'
   - '@oxfmt/binding-darwin-arm64@0.64.0 || 0.65.0 || 0.66.0 || 0.67.0 || 0.68.0 || 0.70.0'
@@ -46,7 +46,7 @@ minimumReleaseAgeExclude:
   - '@types/node@26.3.0 || 26.4.0 || 26.4.1 || 26.5.0 || 26.6.0 || 26.6.3'
   - vue-router@5.3.1
   - '@types/web@0.0.355 || 0.0.356'
-  - '@vitejs/plugin-vue@6.0.9'
+  - '@vitejs/plugin-vue@6.0.9 || 6.0.10'
   - '@vueuse/core@15.0.0'
   - '@vueuse/metadata@15.0.0'
   - '@vueuse/shared@15.0.0'
