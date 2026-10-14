@@ -1,6 +1,6 @@
 minimumReleaseAgeExclude:
   - vite@8.2.1 || 8.2.2 || 8.3.0 || 8.3.1
-  - pinia@4.0.3
+  - pinia@4.0.3 || 4.1.0
   - '@vue/language-core@3.3.10 || 3.3.13'
   - vue-tsc@3.3.10 || 3.3.13
   - '@oxfmt/binding-android-arm-eabi@0.64.0 || 0.65.0 || 0.66.0 || 0.67.0 || 0.68.0 || 0.70.0'
