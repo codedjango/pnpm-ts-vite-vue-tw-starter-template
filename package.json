@@ -22,7 +22,7 @@
 	"devDependencies": {
 		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^26.6.5",
-		"@types/web": "^0.0.358",
+		"@types/web": "^0.0.359",
 		"@vitejs/plugin-vue": "^6.0.10",
 		"@vue/tsconfig": "^0.9.1",
 		"oxfmt": "^0.73.0",
