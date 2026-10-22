@@ -28,7 +28,7 @@
 		"oxfmt": "^0.74.0",
 		"oxlint": "^1.89.0",
 		"typescript": "~6.0.3",
-		"vite": "^8.3.4",
+		"vite": "^8.3.5",
 		"vite-plugin-vue-devtools": "^8.2.1",
 		"vue-tsc": "^3.3.13"
 	}
